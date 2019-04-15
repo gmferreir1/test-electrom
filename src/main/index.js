@@ -44,7 +44,7 @@ app.on('ready', function () {
   if (process.env.NODE_ENV === 'production') autoUpdater.checkForUpdatesAndNotify()
   
   mainWindow.webContents.on('did-finish-load', () => {
-    mainWindow.webContents.send('version', app.getVersion())
+    mainWindow.webContents.send('version', "1.5.0")
   })
 
   /*
