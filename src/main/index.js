@@ -41,7 +41,7 @@ app.on('ready', function () {
 
   createWindow();
 
-  autoUpdater.setFeedURL({ provider: 'github', owner: 'gmferreir1', repo: 'test-electrom', token: 'fe7c4cad1f2efe1aa1be5f6de1c92f3b2f9eb116' })
+  autoUpdater.setFeedURL({ provider: 'github', owner: 'gmferreir1', repo: 'test-electrom', token: 'c96bf23682c158cacfadd5ddf4e487ed17c33954' })
 
   if (process.env.NODE_ENV === 'production') autoUpdater.checkForUpdatesAndNotify()
   
