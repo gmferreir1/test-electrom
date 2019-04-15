@@ -1,0 +1,4 @@
+appId: electron
+publish:
+    provider: github
+    token: 8e8da360aaa22b51d8c0fc9172f350cc544aefa6
