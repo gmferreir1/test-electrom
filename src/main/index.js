@@ -41,10 +41,12 @@ app.on('ready', function () {
 
   createWindow();
 
+  autoUpdater.setFeedURL({ provider: 'github', owner: 'gmferreir1', repo: 'test-electrom', token: 'fe7c4cad1f2efe1aa1be5f6de1c92f3b2f9eb116' })
+
   if (process.env.NODE_ENV === 'production') autoUpdater.checkForUpdatesAndNotify()
   
   mainWindow.webContents.on('did-finish-load', () => {
-    mainWindow.webContents.send('version', "1.5.0")
+    mainWindow.webContents.send('version', "1.6.0")
   })
 
   /*

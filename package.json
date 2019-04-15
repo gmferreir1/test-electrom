@@ -1,7 +1,7 @@
 {
   "name": "tests",
   "productName": "tests",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "author": "Guilherme Ferreira <gmferreir1@gmail.com>",
   "description": "An electron-vue project",
   "license": null,
